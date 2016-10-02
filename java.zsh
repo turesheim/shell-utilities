@@ -20,6 +20,7 @@ function jls() {
 function ju() {
 	export JAVA_HOME=$(/usr/libexec/java_home -v $argv)
 	export PATH=$JAVA_HOME/bin:$PATH
+	launchctl setenv JAVA_HOME $JAVA_HOME
 	java -version
 }
 
