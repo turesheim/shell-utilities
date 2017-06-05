@@ -1,4 +1,4 @@
-#!/usr/local/bin/fish
+#!/usr/local/bin/zsh
 # Wrap jjs to make keyboard navigation work properly
 alias jjs='rlwrap /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/bin/jjs'
 
