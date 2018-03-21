@@ -1,12 +1,10 @@
 #!/usr/local/bin/zsh
-# Wrap jjs to make keyboard navigation work properly
-alias jjs='rlwrap /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/bin/jjs'
 
 # Add aliases for changing java runtime
 alias j6='ju 1.6'
 alias j7='ju 1.7'
 alias j8='ju 1.8'
-alias j9='ju 1.9'
+alias j9='ju 9'
 
 # Prints the path to JAVA_HOME
 alias jh=/usr/libexec/java_home
